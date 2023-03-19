@@ -3,6 +3,7 @@
 # for extracting data to type
 
 from urllib.request import urlopen
+
 from bs4 import BeautifulSoup
 
 url = "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use"
@@ -24,5 +25,3 @@ chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
 text = '\n'.join(chunk for chunk in chunks if chunk)
 
 print(text)
-'''def script():
-  pass'''
