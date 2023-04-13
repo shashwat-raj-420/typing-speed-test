@@ -3,7 +3,7 @@ import time
 import threading
 import random
 
-# change the 4 th line of init function to script_generator
+
 class TypeSpeedGUI():
     def __init__(self):
         self.root = tk.Tk()
