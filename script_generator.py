@@ -2,6 +2,8 @@
 # https://stackoverflow.com/questions/328356/extracting-text-from-html-file-using-python
 # for extracting data to type
 
+#this is now useless
+
 from urllib.request import urlopen
 
 from bs4 import BeautifulSoup
