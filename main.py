@@ -8,7 +8,7 @@ class TypeSpeedGUI():
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("Typing Speed Application")
-        self.root.geometry("800x600")
+        self.root.geometry("1920x1080")
 
         self.texts = open("to_type.txt" , "r").read().split("\n")
 
